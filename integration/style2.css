@@ -1,0 +1,95 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif
+    }
+    
+body{
+    color: #6e6c6c;
+       
+    }
+
+.header{position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% ;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+position: relative;
+font-size: 25px;
+color: rgb(255, 140, 0);
+text-decoration: none;
+font-weight: 800;}
+
+.logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background:none;
+}
+
+.navbar a{font-size: 18px;
+    color:#6e6c6c;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.home{height: 100vh;
+    background: url(home2.png);
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{max-width: 600px;
+    margin-top: 20%;
+}
+
+.home-content h1{
+    position: relative;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: black;
+}
+
+.home-content p{
+    position: relative;
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.home-content .btn-box{
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+
+.btn-box a{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+    width: 200px;
+    height: 150%;
+    background: rgb(255, 140, 0);
+    border: 8px solid rgb(255, 140, 0);
+    border-radius: 7px;
+    font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1; 
+    }
